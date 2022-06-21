@@ -2,6 +2,18 @@
 // The = operator assigns a value to a variable
 let x = 2;
 
+// Assignment operators
+x += 5;
+x -= 1;
+y *= 2;
+y /= 2;
+power **= 2;
+
+// Prefix/postfix increment/decrement
+x++;
+--y;
+
+
 // Addition
 let y = x + 5;
 let z = x + y;
@@ -14,16 +26,11 @@ let q = y / x;
 
 // Exponentiation
 let power = x ** 2;
+// Same as
+let power2 = Math.pow(x, 2);
 
 // Modulus (Division Remainder)
 let modulus = y % x;
-
-// Assignment operators
-x += 5;
-x -= 1;
-y *= 2;
-y /= 2;
-power **= 2;
 
 
 // The + operator can also be used to concatenate strings
